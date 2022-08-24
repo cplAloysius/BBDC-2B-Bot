@@ -4,11 +4,13 @@ This is a bot that checks for available slots for class 2B motorcycle lessons at
 - It refreshes the page at a specified interval and compares the number of lesson slots available to that of the previous refresh
 - If there is a change, a telegram message will be sent to you with a screenshot of the current availabilty of lessons
 
+![Telegram bot screenshot example](https://github.com/cplAloysius/BBDC-2B-Bot/blob/table.png?raw=true)
+
 ### Using the bot
 1. Enter your BBDC username and password into the code in main.py
 2. Get your telegram chat id using [this bot](https://t.me/get_id_bot) and edit the code in main.py appropriately. 
 3. Start the [BBDC telegram bot](https://t.me/AloysiusBBDCBot) to receive the screenshots of the availability of lessons.
-4. Run main.py on your PC
+4. Run [main.py](https://github.com/cplAloysius/BBDC-2B-Bot/blob/main/main.py) on your PC
 
 #
 
