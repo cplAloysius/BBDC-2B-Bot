@@ -19,4 +19,4 @@ You may need to add/remove certain lines depending on your BBDC account. For exa
 
 Since my schedule was not fixed, I did not implement a booking function so that the bot doesn't book lessons that I would be unable to attend. Creating a booking function should be fairly trivial.
 
-I ran this program on my desktop in the background while on Youtube/Netflix/gaming. I occasionally left it to run while I was out by running the "caffeinate" command on a new terminal window (MacOS). You may wish to do the same or to deploy this onto a free hosting service such as heroku.
+I ran this program on my desktop in the background while on Youtube/Netflix/gaming. I would occasionally let it to run while I wasn't home by running the "caffeinate" command on a new terminal window (MacOS). You may wish to do the same or to deploy this onto a free hosting service such as heroku.
