@@ -18,3 +18,5 @@ This is a bot that checks for available slots for class 2B motorcycle lessons at
 You may need to add/remove certain lines depending on your BBDC account. For example, I took class 3 at BBDC prior to taking class 2B. Whenever I login to BBDC, it asks if I want to access my class 3 or class 2B account. The lines of code which handle this selection are from lines 49 to 51. You may modify it to work with your BBDC account.
 
 Since my schedule was not fixed, I did not implement a booking function so that the bot doesn't book lessons that I would be unable to attend. Creating a booking function should be fairly trivial.
+
+I ran this program on my desktop in the background while on Youtube/Netflix/gaming. I occasionally left it to run while I was out by running the "caffeinate" command on a new terminal window (MacOS). You may wish to do the same or to deploy this onto a free hosting service such as heroku.
