@@ -8,10 +8,10 @@ This is a bot that checks for available slots for class 2B motorcycle lessons at
 
 ### Using the bot
 1. Install [chromedriver](https://chromedriver.chromium.org)
-2. Enter your BBDC username and password into the code in main.py
+2. Enter your BBDC username and password into the code in [main.py](https://github.com/cplAloysius/BBDC-2B-Bot/blob/main/main.py)
 3. Get your telegram chat id using [this bot](https://t.me/get_id_bot) and edit the code in main.py appropriately. 
 4. Start the [BBDC telegram bot](https://t.me/AloysiusBBDCBot) to receive the screenshots of the availability of lessons.
-5. Run [main.py](https://github.com/cplAloysius/BBDC-2B-Bot/blob/main/main.py) on your PC
+5. Run main.py on your PC
 
 #
 
