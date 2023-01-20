@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from playsound import playsound
 from inputimeout import inputimeout, TimeoutOccurred
-import telepot
+import telebot
 
 count = 0
 global choice
@@ -36,7 +36,7 @@ class bbdcBot():
 
                 # sleep(0.5)
 
-		//change to your bbdc username and password
+		#change to your bbdc username and password
                 user_box.send_keys('YOUR_BBDC_USERNAME')
                 pw_box.send_keys('YOUR_BBDC_PASSWORD')
                 login_btn.click()
@@ -95,7 +95,7 @@ class bbdcBot():
         global count
         token = '5309123648:AAHDZN7D9wje6069nl7bwc2UROq6-t5_6C8'
         receiver_id = //enter your telegram receiver id here
-        telBot = telepot.Bot(token)
+        telBot = telebot.Bot(token)
         while 1:
             try:
                 search_btn = self.driver.find_element(by=By.NAME, value='btnSearch')
@@ -116,7 +116,7 @@ class bbdcBot():
                                                     value='/html/body/table/tbody/tr/td[2]/form/table[1]/tbody/tr[10]/td/table')
                     self.driver.execute_script("arguments[0].scrollIntoView();", table)
                     table.screenshot('table.png')
-                    telBot.sendPhoto(receiver_id, photo=open(r"/Users/aloysiusloh/PycharmProjects/pythonProject/table.png", 'rb'),
+                    telBot.send_poto(receiver_id, photo=open(r"/Users/aloysiusloh/PycharmProjects/pythonProject/table.png", 'rb'),
                                      caption='Change in available slots.')
 
                     try:
