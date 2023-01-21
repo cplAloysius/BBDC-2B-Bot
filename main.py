@@ -4,6 +4,7 @@ from time import sleep
 from playsound import playsound
 from inputimeout import inputimeout, TimeoutOccurred
 import telebot
+import os
 
 count = 0
 global choice
@@ -116,7 +117,9 @@ class bbdcBot():
                                                     value='/html/body/table/tbody/tr/td[2]/form/table[1]/tbody/tr[10]/td/table')
                     self.driver.execute_script("arguments[0].scrollIntoView();", table)
                     table.screenshot('table.png')
-                    telBot.send_poto(receiver_id, photo=open(r"/Users/aloysiusloh/PycharmProjects/pythonProject/table.png", 'rb'),
+                    ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__),'..'))
+                    table_location = ROOT_DIR + r"/table.png"
+                    telBot.send_photo(receiver_id, photo=open(table_location, 'rb'),
                                      caption='Change in available slots.')
 
                     try:
